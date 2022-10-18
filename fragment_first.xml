@@ -7,7 +7,7 @@
     <!ATTLIST androidx.constraintlayout.widget.ConstraintLayout android:layout_width CDATA #REQUIRED>
     <!ATTLIST androidx.constraintlayout.widget.ConstraintLayout android:layout_height CDATA #REQUIRED>
     <!ATTLIST androidx.constraintlayout.widget.ConstraintLayout tools:context CDATA #REQUIRED>
-    <!ELEMENT TextView (#PCDATA)>
+    <!ELEMENT TextView EMPTY>
     <!ATTLIST TextView android:id CDATA #REQUIRED>
     <!ATTLIST TextView  android:layout_width CDATA #REQUIRED>
     <!ATTLIST TextView  android:layout_height CDATA #REQUIRED>
@@ -16,7 +16,7 @@
     <!ATTLIST TextView  app:layout_constraintEnd_toEndOf CDATA #REQUIRED>
     <!ATTLIST TextView  app:layout_constraintStart_toStartOf CDATA #REQUIRED>
     <!ATTLIST TextView  app:layout_constraintTop_toTopOf CDATA #REQUIRED>
-    <!ELEMENT Button (#PCDATA)>
+    <!ELEMENT Button EMPTY>
     <!ATTLIST Button android:id CDATA #REQUIRED>
     <!ATTLIST Button android:layout_width CDATA #REQUIRED>
     <!ATTLIST Button android:layout_height CDATA #REQUIRED>
